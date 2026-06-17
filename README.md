@@ -13,8 +13,11 @@ Tui-Drive-tool is a tool that does drive stuff based on whiptail dialog menus fo
 Ensure you have the following system utilities installed (most are built-in):
 `lsblk`, `dd`, `parted`, `cfdisk`, `cryptsetup`, `whiptail`
 
-## [!] Quick Setup
-1. Clone this repository or download the scripts.
+## [!] Install and quick setup
+1. Clone this repository.
+   ```bash
+   https://github.com/teerakawin/Tui-Drive-tool.git
+   ```
 2. Grant execution permissions:
    ```bash
    chmod +x tui_drive_tool.sh tui_backend.sh
